@@ -118,3 +118,22 @@ perimetr(4, 3) - возвращает 14
 ## история изменения проекта
 * d078c8d L-03: Docs added
 * 8ba9aeb L-03: Circle and square added
+
+## Unit-тесты
+
+Проект включает unit-тесты для всех модулей, написанные с использованием стандартной библиотеки unittest.
+
+### Структура тестов
+- `test_square.py` - тесты для квадрата
+- `test_circle.py` - тесты для круга  
+- `test_triangle.py` - тесты для треугольника
+- `test_rectangle.py` - тесты для прямоугольника
+
+### Запуск тестов
+
+#### Запуск тестов для конкретного модуля:
+```bash
+python -m unittest test_square.py
+python -m unittest test_circle.py
+python -m unittest test_triangle.py
+python -m unittest test_rectangle.py
